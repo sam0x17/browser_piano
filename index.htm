@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Browser Piano - Online Virtual Piano & Composition Tool</title>
+		<link rel="shortcut icon" type="image/x-icon" href="browser_piano_favicon.ico">
+		<script src="scripts/base.js"></script>
+		<script src="scripts/advanced.js"></script>
+		<link rel="stylesheet" type="text/css" href="style/style.css" />
+	</head>
+	<body onload="init(true);">
+		<br><br>
+		<canvas id="keyboard_canvas" width="1024" height="274" unselectable="on" oncontextmenu="return false;" style="-moz-user-select: none; -webkit-user-select: none; user-select: none; display:none">canvas not supported</canvas><br>
+		<div id="loading" style="position:absolute; z-index:20; width:100%; height:100%; overflow:hidden; text-align:center; vertical-align:middle; top:0px; font:7px Verdana; padding-top:125px">
+			Loading: <span id="loading_status"></span><br>
+			<img src="images/loading.gif">
+			<br><br><br>
+		</div>
+	</body>
+</html>

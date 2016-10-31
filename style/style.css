@@ -1,0 +1,38 @@
+@font-face
+{
+	font-family: 'DS-DigitalNormal';
+	src: url('../fonts/DS-DigitalNormal/ds-digital-webfont.eot');
+	src: url('../fonts/DS-DigitalNormal/ds-digital-webfont.eot?#iefix') format('embedded-opentype'),
+			 url('../fonts/DS-DigitalNormal/ds-digital-webfont.woff') format('woff'),
+			 url('../fonts/DS-DigitalNormal/ds-digital-webfont.ttf') format('truetype'),
+			 url('../fonts/DS-DigitalNormal/ds-digital-webfont.svg#DS-DigitalNormal') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face
+{
+	font-family: 'DS-DigitalBold';
+	src: url('../fonts/DS-DigitalBold/ds-digital-bold-webfont.eot');
+	src: url('../fonts/DS-DigitalBold/ds-digital-bold-webfont.eot?#iefix') format('embedded-opentype'),
+			 url('../fonts/DS-DigitalBold/ds-digital-bold-webfont.woff') format('woff'),
+			 url('../fonts/DS-DigitalBold/ds-digital-bold-webfont.ttf') format('truetype'),
+			 url('../fonts/DS-DigitalBold/ds-digital-bold-webfont.svg#DS-DigitalBold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/*
+@font-face
+{
+	font-family: 'Calibri';
+	src: url('../fonts/cal/cal.ttf') format('truetype'),
+			 url('../fonts/cal/cal.otf'),
+			 url('../fonts/cal/cal.svg') format('svg');
+}*/
+
+body
+{
+	text-align:center;
+	margin:0 0 0 0;
+}
