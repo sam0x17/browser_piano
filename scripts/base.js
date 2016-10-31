@@ -165,7 +165,7 @@
 		if(!chord.pressed)
 		{
 			chord.pressed = true;
-			
+
 			for(var i = 0; i < chord.keys.length; i++)
 			{
 				chord.keys[i].pressNoRefresh();
@@ -180,7 +180,7 @@
 		if(chord.pressed)
 		{
 			chord.pressed = false;
-			
+
 			for(var i = 0; i < chord.keys.length; i++)
 			{
 				chord.keys[i].releaseNoRefresh();
@@ -576,7 +576,7 @@
 	var canvas_selectionchange = function(e) { return false; };
 	var canvas_select = function(e) { return false; };
 
-	
+
 	var canvas_mousedown = function(e)
 	{
 		processCanvasMouseEvent(e, MOUSE_EVENT.MOUSE_DOWN);
@@ -691,7 +691,7 @@
 							//mouse_key = null;
 						} else if(e.button == 2) {
 							// right click mouse up
-							
+
 						}
 						break;
 					case MOUSE_EVENT.MOUSE_MOVE:
@@ -713,7 +713,7 @@
 
 
 	/* finds the position of a mouse event
-		 relative to the start of the document */			
+		 relative to the start of the document */
 	function getMousePos(e)
 	{
 		var posx = 0;
@@ -778,7 +778,7 @@
 	var img_white_key_pressed;
 	var img_white_key_red_normal;
 	var img_white_key_red_pressed;
-	
+
 
 
 	function init(advanced)
@@ -836,7 +836,7 @@
 	{
 		// setup keyboard button data struture
 		generateKeyboardStructure();
-		
+
 		// setup keyboard
 		initKeys(start_note, start_note_index, start_octave, num_keys);
 
@@ -970,7 +970,7 @@
 		keyboard_canvas.style.display = 'inline';
 		refresh_keys();
 		a = generateChord(NOTE.A, 2, QUALITY.MIN, 1);
-		alert(keys.length);
+		console.log(keys.length);
 	}
 
 
